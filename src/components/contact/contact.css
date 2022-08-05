@@ -1,0 +1,145 @@
+.contact {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.654),
+    #3dbad6,
+    #3dbad68e,
+    #3dbad68e,
+    #3dbad68e,
+    rgba(255, 255, 255, 0.354)
+  );
+  padding: 60px;
+}
+.fform {
+  background: white;
+  padding: 90px;
+  border-radius: 15px;
+}
+.fform h2 {
+  margin-bottom: 20px;
+}
+.names {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.names__fname input {
+  width: 355px;
+  padding: 15px;
+  border: none;
+  outline: 0;
+  background: none;
+}
+.names__fname {
+  background: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.names__lname {
+  background: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+}
+.names__lname input {
+  width: 400px;
+  border: none;
+  outline: 0;
+  padding: 15px;
+  background: none;
+}
+.Address {
+  background: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+.Address input {
+  width: 280px;
+  border: none;
+  outline: 0;
+  padding: 15px;
+  background: none;
+}
+.Message {
+  background: whitesmoke;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+.Message input {
+  width: 280px;
+  height: 20px;
+  border: none;
+  outline: none;
+  overflow: none;
+  padding: 100px 15px;
+  background: none;
+}
+.submit_h {
+  text-align: center;
+}
+.submit {
+  padding: 9px 50px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .names__fname input {
+    width: 200px;
+    padding: 15px;
+    border: none;
+    outline: 0;
+    background: none;
+  }
+  .names__lname input {
+    width: 200px;
+    border: none;
+    outline: 0;
+    padding: 15px;
+    background: none;
+  }
+  .names {
+    display: flex;
+    flex-direction: column;
+  }
+  .names__lname {
+    background: whitesmoke;
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact {
+    padding: 90px 0;
+  }
+  .fform {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  .names {
+    display: flex;
+    flex-direction: column;
+  }
+  .names__fname input {
+    width: 355px;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    margin: 10px 0;
+    background: none;
+  }
+  .names__lname input {
+    width: 120px !important;
+    border: none;
+    outline: 0;
+    padding: 15px;
+    background: none;
+    margin-top: 10px;
+  }
+  .names__lname {
+    background: whitesmoke;
+    margin: 15px 0;
+  }
+  .submit_h {
+    text-align: left;
+  }
+}

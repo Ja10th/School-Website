@@ -1,0 +1,58 @@
+.navbarr {
+  background: url(https://c4.wallpaperflare.com/wallpaper/931/388/951/miui-8-weather-background-minimal-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0 0 0;
+  position: relative;
+}
+.logo__area {
+  display: flex;
+  color: #fff;
+}
+.logo {
+  font-size: 20px;
+  margin-top: 8px;
+  margin-right: 4px;
+}
+.logo__area p {
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  color: white;
+}
+.navbar__list {
+  display: Flex;
+}
+.navbar__list li {
+  margin-top: 8px;
+  margin-right: 25px;
+  color: whitesmoke;
+}
+.navbar__list li:hover {
+  color: white;
+}
+.active {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  .navbar__list {
+    display: none;
+  }
+  .navbarr {
+    height: 400px !important;
+  }
+  .navbarr {
+    background: url(https://c4.wallpaperflare.com/wallpaper/931/388/951/miui-8-weather-background-minimal-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 58vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 0 0;
+    position: relative;
+  }
+}

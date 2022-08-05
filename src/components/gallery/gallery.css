@@ -1,0 +1,154 @@
+.gallery h2 {
+  text-align: center;
+}
+.galleryb {
+  display: flex;
+  justify-content: space-between;
+}
+.gallery__detail > div:hover {
+  opacity: 0.6;
+}
+.gallery__detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gallery__detail > div {
+  margin: 20px 0;
+}
+.left-top-gallery {
+  background: url(https://m.economictimes.com/thumb/msid-77391367,width-1200,height-900,resizemode-4,imgsize-677864/to-reduce-risk-experts-say-schools-should-make-adjustments-when-resuming-in-person-classes-.jpg);
+  background-size: Cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.left-bottom-gallery {
+  background: url(https://images.indianexpress.com/2021/11/delhi-school-1-1.jpg);
+  background-size: Cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.middle-gallery {
+  background: url(https://i0.wp.com/businessday.ng/wp-content/uploads/2021/10/Corona-School-1.png?fit=700%2C400&ssl=1);
+  background-size: Cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  margin: 80px 0 0 0;
+}
+.middle-gallery:hover {
+  opacity: 0.6;
+}
+.right-top-gallery {
+  background: url(https://love.lambeth.gov.uk/wp-content/uploads/2022/03/aim-high-nov-pic-2-720.jpg);
+  background-size: Cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.right-bottom-gallery {
+  background: url(https://www.ucl.ac.uk/ioe/sites/ioe/files/teacher-checking-pupils-work.jpg);
+  background-size: Cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.left-top-gallery2 {
+  background: url(https://www.haileybury.com/content/uploads/2020/11/image-005-scaled.jpg);
+  background-size: Cover;
+  background-position: center;
+  height: 250px;
+  width: 480px;
+  border-radius: 15px;
+}
+.left-bottom-gallery2 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZA-QV9A6fL--muiVGIHysmvot9naoOW3XG9JAKkzA5fd_WoXxkIy8p4ynK1XpaevIhxc&usqp=CAU);
+  background-size: Cover;
+  background-position: center;
+  height: 200px;
+  width: 350px;
+  border-radius: 15px;
+}
+.right-top-gallery2 {
+  background: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/13BEB/production/_120357808_gettyimages-1309052772.jpg);
+  background-size: Cover;
+  background-position: center;
+  height: 200px;
+  width: 350px;
+  border-radius: 15px;
+}
+.right-bottom-gallery2 {
+  background: url(https://www.acamh.org/app/uploads/2020/07/Are-school-based-Web-1-880x537.png);
+  background-size: Cover;
+  background-position: center;
+  height: 250px;
+  width: 480px;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1024px) {
+  .galleryb {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery__detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .gallery__detail > div {
+    margin: 20px 20px;
+  }
+  .left-top-gallery2 {
+    width: 400px;
+    border-radius: 15px;
+  }
+  .middle-gallery {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 40px 0 0 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .galleryb {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery__detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .gallery__detail > div {
+    margin: 20px 0;
+  }
+  .left-top-gallery2 {
+    width: 300px;
+    border-radius: 15px;
+  }
+  .right-bottom-gallery2 {
+    width: 300px;
+    border-radius: 15px;
+  }
+  .middle-gallery {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 40px 0 0 0;
+  }
+  .left-bottom-gallery2 {
+    width: 300px;
+    border-radius: 15px;
+  }
+  .right-top-gallery2 {
+    width: 300px;
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,28 @@
+.news {
+  margin: 100px 0 70px 0;
+  background: whitesmoke;
+  padding: 60px 0;
+}
+.news__details {
+  background: url(https://c4.wallpaperflare.com/wallpaper/931/388/951/miui-8-weather-background-minimal-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  text-align: center;
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 10px;
+}
+.news__details h2 {
+  padding: 30px 0 0 0;
+}
+.news__details p {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .news__details {
+    text-align: left;
+    height: 170px;
+  }
+}

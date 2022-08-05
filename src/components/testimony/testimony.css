@@ -1,0 +1,59 @@
+.testimony {
+  background: whitesmoke;
+  margin: 20px 0;
+}
+.testimony__heading h2 {
+  text-align: center;
+  padding: 50px 0 30px 0;
+}
+.testimony__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: Center;
+  background: white;
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 2px 1px rgba(226, 221, 221, 0.216);
+}
+.testimony__card:hover {
+  background: #e0e0e0;
+}
+.testimony__card p {
+  padding: 20px 1.2rem;
+}
+.testimony__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  padding: 50px 0;
+}
+.testimony img {
+  height: 80px;
+  aspect-ratio: 1/1;
+  border: 3px solid gray;
+  border-radius: 50%;
+  place-content: center;
+}
+.testimony__icon {
+  font-size: 30px;
+  margin: 20px 0;
+  color: gray;
+}
+@media screen and (max-width: 1024px) {
+  .testimony__details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .testimony__details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .testimony__heading h2 {
+    text-align: left;
+  }
+}

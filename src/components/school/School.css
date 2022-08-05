@@ -1,0 +1,137 @@
+.school__heading {
+  text-align: center;
+}
+.school__heading h2 {
+  font-weight: 600;
+}
+.school__heading h5 {
+  font-weight: 400;
+}
+
+.school__details {
+  display: Flex;
+  margin: 40px;
+}
+.school__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+}
+.Learn__Main {
+  text-align: center;
+  background: white;
+  color: gray;
+  border-radius: 10px;
+  height: 200px !important;
+  padding: 10px 20px;
+  box-shadow: 0.3px 0.1px 2px 1px rgb(210, 209, 209);
+}
+.Learn__Main:hover {
+  background: whitesmoke;
+  color: gray;
+}
+.Learn__Main p {
+  text-align: left;
+  margin-top: 20px;
+}
+.moniola {
+  position: absolute;
+  background: whitesmoke;
+  border: 1px solid gray;
+  height: 1.2%;
+  padding: 0 10px;
+  margin-top: 180px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px 1px inset var(--secondary-color);
+}
+.school__article {
+  color: var(--primary-color);
+  /* padding: 10px; */
+  font-size: 40px;
+  /* color: white; */
+  margin: 4px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.school__article2 {
+  color: gold;
+  /* padding: 10px; */
+  font-size: 40px;
+  /* color: white; */
+  margin: 4px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.school__article3 {
+  color: green;
+  /* padding: 10px; */
+  font-size: 40px;
+  /* color: white; */
+  margin: 4px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.school__article4 {
+  color: var(--secondary-color);
+  /* padding: 10px; */
+  font-size: 40px;
+  /* color: white; */
+  margin: 4px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.details__info {
+  text-align: left;
+  padding: 20px;
+  max-width: 50%;
+}
+
+.simage {
+  height: 350px;
+}
+@media screen and (max-width: 1024px) {
+  .school__details {
+    display: Flex;
+    margin: 40px 0;
+    text-align: center;
+    align-items: left;
+  }
+  .school__info {
+    margin: 20px 0;
+  }
+  .school__info {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .school__details {
+    flex-direction: column;
+  }
+  .school__heading {
+    text-align: left;
+    padding: 0 50px 0 50px;
+  }
+  .school__info {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+  }
+  .moniola {
+    position: absolute;
+    background: whitesmoke;
+    border: 1px solid gray;
+    height: 0.7%;
+    padding: 0 10px;
+    margin-top: 180px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 1px inset var(--secondary-color);
+  }
+  .simage {
+    height: 300px;
+  }
+  .himage {
+    height: 280px;
+  }
+}
